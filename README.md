@@ -21,24 +21,6 @@
 - **JavaScript**
 - **LocalStorage**
 
-## Структура проекта
-
-1. **Функции для работы с данными:**
-   - **dataToJson()**: Преобразует данные в формат JSON для хранения в LocalStorage.
-   - **setCartData()**: Записывает данные в LocalStorage.
-   - **jsonToData()**: Преобразует данные из JSON обратно в объекты.
-   - **getCartData()**: Читает данные из LocalStorage.
-  
-2. **Основная функция:**
-   - **createTodoApp()**: Инициализирует приложение, загружает список задач из LocalStorage и отображает его на странице. Также принимает параметры для индивидуальных списков каждого пользователя.
-
-## Пример использования
-
-```javascript
-document.addEventListener('DOMContentLoaded', function() {
-    createTodoApp(document.getElementById('todo-app'), 'Мои дела', 'my');
-});
-
 ## Как запустить проект
 1. Склонируйте репозиторий:
    ```sh
